@@ -34,7 +34,7 @@ function App() {
 			<CartContext.Provider value={{cart, setCart, removeItem}}>
 				<div className="App">
 					<Navigation  />
-
+					<h1>We're testing this!</h1>
 					{/* Routes */}
 					<Route
 						exact
